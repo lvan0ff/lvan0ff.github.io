@@ -1,0 +1,247 @@
+		* {
+			margin: 0;
+			
+		}
+
+		html, body {
+			height: 100%;
+		}
+		h1, h2, h3, h4, h5, h6, p {
+			margin-bottom: 20px;
+		}
+    
+		nav{
+			position: fixed;
+			width: 100%;
+			height: 50px;
+			background-color: #1D1F2B;
+			z-index: 99;
+			text-align: center;
+			font-family: 'Kaushan Script', cursive;
+
+
+
+
+		}
+		nav a {
+			text-decoration: none;
+			color: #fff;
+			vertical-align: middle;
+			padding: 15px 30px;
+			display: inline-block;
+           /* border-right: 1px dotted red;*/
+        }
+		.hvr-float:hover,
+		.hvr-float:focus,
+		.hvr-float:active {
+		  transform: translateY(-8px);
+		}
+		nav a:hover {
+           
+             display: inline-block;
+ 			 vertical-align: middle;
+ 			 transform: translateZ(0);
+ 			 box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+ 			 backface-visibility: hidden;
+ 			 -moz-osx-font-smoothing: grayscale;
+ 			 transition-duration: 0.3s;
+  			transition-property: transform;
+  			transition-timing-function: ease-out;
+
+		}
+		/*nav a:last-child {
+            border-right: none;
+		}*/
+		
+		.sect {
+			height: 100%;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+		}
+		.subSection{
+			height: 100%;
+			background-color: #F7EFEF; 
+
+			
+		}
+		.bio,#progress {
+            margin: 0 auto 50px;
+			padding: 20px 20px 20px 20px;
+			width: 70%;
+			background-color: white;
+			color: black;
+			text-align: center;
+		    font-family: 'Contrail One', cursive;
+		    overflow: hidden;
+
+            
+
+			 
+
+		}
+		#aboutSection{
+			padding-top: 60px;
+			padding-left: 60px;
+		}
+		#contactSection{
+			height: 100%;
+			background-color: white;
+			font-family: 'Kaushan Script', cursive;
+
+		
+			
+			
+			
+		}
+		.lastsection{
+			height: 30%;
+			background-color: black;
+			font-family: 'Kaushan Script', cursive;
+
+			
+		}
+		
+	     
+		.sectOne{
+            background-image: url("./img/13.jpg");
+		}
+		.sectTwo{
+		    background-image: url("./img/4.jpg");
+		}
+		.sectFour {
+			background-image: url("./img/30.jpg");
+		}
+		.sectFive {
+			background-image: url("./img/34.jpg");
+		} 
+		.sectSix {
+			background-image: url("./img/27.jpg");
+		} 
+		.sectSeven {
+			background-image: url("./img/38.jpg");
+		} 
+		
+		#ny {
+			text-align: center;
+			color: white;
+			margin: 0 auto 50px;
+			line-height: 50px;
+			font-size: 100px;
+			opacity: 1.0;
+            font-family: 'Kaushan Script', cursive;
+            padding-top: 400px;
+
+
+            
+
+		}
+		.moments {
+			padding-top: 100px;
+			font-size: 30px;
+			margin: 0 auto 50px;
+			color: white;
+			text-align: center;
+			font-family: 'Kaushan Script', cursive;
+
+			
+		}
+        #tothetop {
+
+			margin: 0 auto 50px;
+			max-width: 125px;
+        } 
+
+
+		form {
+			max-width: 450px;
+			margin: 0 auto 50px;
+			font-family: 'Kaushan Script', cursive;
+
+					
+		}
+        input {
+        	border: 2px solid #ccc;
+            border-radius: 4px;
+        	font-size: 1.4em;
+            width: 100%;
+            font-family: 'Kaushan Script', cursive;
+
+        }
+        button {
+        	border: 1px solid #7f7f7f;
+            font-size: 1.4em;
+            width: 100%;
+            margin-left: 4px;
+            font-family: 'Kaushan Script', cursive;
+
+        }
+        button:hover{
+           background-color: #F76767;
+           color: white;
+        }
+        h2{
+        	text-align: center;
+        	color: #322F30;
+        	font-family: 'Kaushan Script', cursive;
+        	
+        }
+       
+       
+		div.img .hvr-fade {
+		  display: inline-block;
+		  vertical-align: middle;
+		  -webkit-transform: perspective(1px) translateZ(0);
+		  transform: perspective(1px) translateZ(0);
+		  box-shadow: 0 0 1px transparent;
+		  overflow: hidden;
+		  -webkit-transition-duration: 0.3s;
+		  transition-duration: 0.3s;
+		  -webkit-transition-property: color, background-color;
+		  transition-property: color, background-color;
+		}
+		
+		div.img:hover, .hvr-fade:focus, .hvr-fade:active {
+		  background-color: #F76767;
+		  color: white; 
+		}
+
+		div.img img {
+	    width: 100%;
+	    height: auto;
+		}
+
+		div.desc {
+    	padding: 15px;
+    	text-align: center;
+        font-family: 'Kaushan Script', cursive;
+
+		}
+
+		.responsive {
+    	box-sizing: border-box;
+		}
+
+		.responsive {
+    	padding: 0 6px;
+    	float: left;
+    	width: 24.99999%;
+		}
+
+		#input[type=text] {
+	    width: 130px;
+	    box-sizing: border-box;
+	    border: 2px solid #ccc;
+	    border-radius: 4px;
+	    font-size: 16px;
+	    background-color: white;
+	    background-repeat: no-repeat;
+	    padding: 12px 20px 12px 40px;
+	    -webkit-transition: width 0.4s ease-in-out;
+	    transition: width 0.4s ease-in-out;
+		}
+
+		#input[type=text]:focus {
+		    width: 100%;
+		}
+     
